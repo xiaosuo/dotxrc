@@ -1,0 +1,14 @@
+[sendemail]
+        smtpencryption = tls
+        smtpserver = smtp.gmail.com
+        smtpuser = xiaosuo@gmail.com
+        smtpserverport = 587
+[user]
+	email = xiaosuo@gmail.com
+	name = Changli Gao
+[color]
+	ui = true
+[push]
+	default = simple
+[core]
+	pager = less -SR
