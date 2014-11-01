@@ -23,3 +23,6 @@ if has("cscope")
 	map g<C-]> :cs find 3 <C-R>=expand("<cword>")<CR><CR>
 	map g<C-\> :cs find 0 <C-R>=expand("<cword>")<CR><CR>
 endif
+filetype on
+filetype plugin on
+filetype indent on
