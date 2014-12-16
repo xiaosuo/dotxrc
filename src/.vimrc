@@ -1,6 +1,6 @@
-:syntax on
-:set hls
-:set background=dark
+syntax on
+set hls
+set background=dark
 
 if has("autocmd")
 	au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
