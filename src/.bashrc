@@ -2,7 +2,11 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias ls='ls --color=auto'
+if [ `uname` = 'Darwin' ]; then
+	alias ls='ls -G'
+else
+	alias ls='ls --color=auto'
+fi
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
