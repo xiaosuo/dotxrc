@@ -1,7 +1,8 @@
 TARGETS = \
 	  .bashrc \
 	  .vimrc \
-	  .gitconfig
+	  .gitconfig \
+	  .vim
 
 install:
 	for f in ${TARGETS}; do \
