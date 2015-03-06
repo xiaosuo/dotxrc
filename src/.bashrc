@@ -22,3 +22,5 @@ export PAGER='less -r'
 
 export GOPATH=~/gocode
 export PATH=$GOPATH/bin:$PATH
+
+test -f ~/.bashrc.local && source ~/.bashrc.local
