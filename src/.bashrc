@@ -19,3 +19,6 @@ alias vi='vim'
 
 export EDITOR=vim
 export PAGER='less -r'
+
+export GOPATH=~/gocode
+export PATH=$GOPATH/bin:$PATH
