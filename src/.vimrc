@@ -26,3 +26,6 @@ filetype on
 filetype plugin on
 filetype indent on
 set ml
+set nu
+set textwidth=80
+set colorcolumn=+1
