@@ -2,7 +2,8 @@ TARGETS = \
 	  .bashrc \
 	  .vimrc \
 	  .gitconfig \
-	  .vim
+	  .vim \
+	  .tmux.conf
 
 install:
 	for f in ${TARGETS}; do \
