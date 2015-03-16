@@ -37,10 +37,17 @@ if has("cscope")
 endif
 
 set ffs=unix,dos,mac
+" Some Linux distributions set filetype in /etc/vimrc.
+" Clear filetype flags before changing runtimepath to force Vim to reload them.
+if exists("g:did_load_filetypes")
+	filetype off
+	filetype plugin indent off
+endif
+let s:goroot=system("go env GOROOT")
+let s:govim=substitute(s:goroot, '\(.*\)\n', '\1', '') . "/misc/vim"
+execute 'set runtimepath+=' . s:govim
+filetype plugin indent on
 syntax on
-filetype on
-filetype plugin on
-filetype indent on
 set modeline
 
 " Edit space
