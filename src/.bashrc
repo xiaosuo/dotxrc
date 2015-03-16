@@ -24,3 +24,5 @@ export GOPATH=~/gocode
 export PATH=$GOPATH/bin:$PATH
 
 test -f ~/.bashrc.local && source ~/.bashrc.local
+
+export PS1="\[\e]2;\u@\h \W\a\e[36;1m\]\u@\[\e[32;1m\]\h \[\e[34;1m\]\W \[\e[33;1m\]$\[\e[0m\] "
