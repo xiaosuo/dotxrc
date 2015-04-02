@@ -32,3 +32,9 @@ if which ruby >/dev/null && which gem >/dev/null; then
 fi
 
 export PATH=~/bin:$PATH
+
+if which boot2docker >/dev/null; then
+	if [ `boot2docker status 2>/dev/null` = "running" ]; then
+		eval "$(boot2docker shellinit 2>/dev/null)"
+	fi
+fi
