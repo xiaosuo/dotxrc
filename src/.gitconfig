@@ -8,7 +8,5 @@
 	name = Changli Gao
 [color]
 	ui = true
-[push]
-	default = simple
 [core]
 	pager = less -SR
