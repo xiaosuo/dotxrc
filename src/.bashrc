@@ -23,8 +23,6 @@ export PAGER='less -r'
 export GOPATH=~/gocode
 export PATH=$GOPATH/bin:$PATH
 
-test -f ~/.bashrc.local && source ~/.bashrc.local
-
 if [ $TERM = "linux" ]; then
 	if [ $EUID -eq 0 ]; then
 		export PS1="\[\e[36;1m\]\u@\[\e[32;1m\]\h \[\e[34;1m\]\W \[\e[31;1m\]#\[\e[0m\] "
@@ -50,3 +48,5 @@ if which boot2docker &>/dev/null; then
 		eval "$(boot2docker shellinit 2>/dev/null)"
 	fi
 fi
+
+test -f ~/.bashrc.local && source ~/.bashrc.local
