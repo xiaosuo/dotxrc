@@ -49,4 +49,12 @@ if which boot2docker &>/dev/null; then
 	fi
 fi
 
+if [ -n "$SSH_CONNECTION" ] && [ -z "$TMUX" ]; then
+	if which tmux &>/dev/null; then
+		if tmux list-s &>/dev/null; then
+			tmux attach
+		fi
+	fi
+fi
+
 test -f ~/.bashrc.local && source ~/.bashrc.local
