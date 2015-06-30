@@ -64,3 +64,5 @@ highlight ColorColumn ctermbg=237
 " Status line
 set laststatus=2
 set statusline=[%F]%y%r%m%*%=[Line:%l/%L,Column:%c/%v][%p%%]
+
+set backspace=2
