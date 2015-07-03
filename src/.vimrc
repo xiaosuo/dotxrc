@@ -43,9 +43,7 @@ if exists("g:did_load_filetypes")
 	filetype off
 	filetype plugin indent off
 endif
-let s:goroot=system("go env GOROOT")
-let s:govim=substitute(s:goroot, '\(.*\)\n', '\1', '') . "/misc/vim"
-execute 'set runtimepath+=' . s:govim
+execute pathogen#infect()
 filetype plugin indent on
 syntax on
 set modeline
