@@ -13,3 +13,6 @@
 [submodule "src/.vim/bundle/tagbar"]
 	path = src/.vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "src/.vim/bundle/nerdtree"]
+	path = src/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
