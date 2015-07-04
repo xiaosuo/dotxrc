@@ -7,3 +7,6 @@
 [submodule "src/.vim/bundle/YouCompleteMe"]
 	path = src/.vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "src/.vim/bundle/YCM-Generator"]
+	path = src/.vim/bundle/YCM-Generator
+	url = https://github.com/rdnetto/YCM-Generator.git
