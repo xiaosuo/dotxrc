@@ -16,3 +16,12 @@
 [submodule "src/.vim/bundle/nerdtree"]
 	path = src/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "src/.vim/bundle/ultisnips"]
+	path = src/.vim/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "src/.vim/bundle/vim-snippets"]
+	path = src/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "src/.vim/bundle/supertab"]
+	path = src/.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
