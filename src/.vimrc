@@ -83,3 +83,5 @@ let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
 noremap <Leader>t :TagbarToggle<CR>
 noremap <Leader>f :NERDTreeToggle<CR>
+
+set formatoptions-=t
