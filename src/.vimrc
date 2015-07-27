@@ -85,3 +85,5 @@ noremap <Leader>t :TagbarToggle<CR>
 noremap <Leader>f :NERDTreeToggle<CR>
 
 set formatoptions-=t
+
+let g:localvimrc_ask = 0
