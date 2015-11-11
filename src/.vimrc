@@ -5,7 +5,7 @@ set background=dark
 " Encoding
 set encoding=utf-8
 set fileencoding=utf-8
-set fileencodings=utf-8,gbk,gb18030,gb2312,ucs-bom,cp936,utf-16,big5,latin1
+set fileencodings=utf-8,gbk,gb18030,gb2312,ucs-bom,cp936,big5,latin1
 set termencoding=utf-8
 
 " Search
