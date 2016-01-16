@@ -16,6 +16,7 @@
 	co = checkout
 	st = status
 	df = diff
+	ds = diff --stat
 	br = branch
 	dc = diff --cached
 	lg = log -p
