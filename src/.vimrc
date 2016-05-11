@@ -53,10 +53,13 @@ set number
 set textwidth=80
 set colorcolumn=+1
 set cursorline "hightlight
+set cursorcolumn
 highlight LineNr ctermbg=DarkGray
 highlight LineNr ctermfg=White
 highlight CursorLine cterm=none
 highlight CursorLine ctermbg=237
+highlight CursorColumn cterm=none
+highlight CursorColumn ctermbg=237
 highlight ColorColumn ctermbg=237
 
 " Status line
