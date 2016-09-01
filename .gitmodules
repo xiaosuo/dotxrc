@@ -34,3 +34,6 @@
 [submodule "src/.vim/bundle/vim-trailing-whitespace"]
 	path = src/.vim/bundle/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "src/.vim/bundle/vim-gitgutter"]
+	path = src/.vim/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
