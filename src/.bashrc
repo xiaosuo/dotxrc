@@ -21,7 +21,7 @@ export EDITOR=vim
 export PAGER='less -r'
 
 export GOPATH=~/gocode
-export PATH=$GOPATH/bin:$PATH
+export PATH=~/work/touslebox/bin:$GOPATH/bin:$PATH
 
 if [ $TERM = "linux" ]; then
 	if [ $EUID -eq 0 ]; then
