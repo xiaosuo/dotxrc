@@ -51,6 +51,9 @@ fi
 
 test -f ~/.bashrc.local && source ~/.bashrc.local
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 if [ -n "$SSH_CONNECTION" ] && [ -z "$TMUX" ]; then
 	if which tmux &>/dev/null; then
 		if tmux list-s &>/dev/null; then
@@ -58,6 +61,3 @@ if [ -n "$SSH_CONNECTION" ] && [ -z "$TMUX" ]; then
 		fi
 	fi
 fi
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
