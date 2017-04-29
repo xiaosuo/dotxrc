@@ -17,4 +17,4 @@ apt-get install build-essential vim-nox git python-dev cmake libclang-dev \
 	ruby ri ctags cscope
 git submodule update --init --recursive
 cd src/.vim/bundle/YouCompleteMe
-./install.sh --clang-completer --system-libclang
+./install.sh --clang-completer
