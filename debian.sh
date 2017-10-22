@@ -2,14 +2,19 @@
 
 set -e
 
+if [[ $EUID -ne 0 ]]; then
+	echo "You must be root to run"
+	exit 1
+fi
+
 if [[ x`lsb_release -is` != xDebian ]]; then
 	echo "Only Debian is supported"
 	exit 1
 fi
 
 rel=`lsb_release -rs | cut -d. -f1`
-if [[ $rel -ne 8 ]]; then
-	echo "Only Debian 8 is tested"
+if [[ $rel -ne 8 ]] && [[ $rel -ne 9 ]]; then
+	echo "Only Debian 8 and 9 are tested"
 	exit 1
 fi
 
