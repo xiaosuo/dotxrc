@@ -93,4 +93,4 @@ set completeopt-=preview
 
 let g:localvimrc_ask = 0
 
-set foldmethod=syntax
+"set foldmethod=syntax
