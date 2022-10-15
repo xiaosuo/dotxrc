@@ -3,6 +3,7 @@ TARGETS = \
 	  .vimrc \
 	  .gitconfig \
 	  .vim \
+	  .tmux \
 	  .tmux.conf
 
 install:
