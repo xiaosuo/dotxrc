@@ -59,6 +59,7 @@ test -d $TMUX_TMPDIR || mkdir -p $TMUX_TMPDIR
 if [ -n "$SSH_CONNECTION" ] && [ -z "$TMUX" ]; then
 	if which tmux &>/dev/null; then
 		if tmux list-s &>/dev/null; then
+			pkill -u $USER -f 'tmux attach'
 			tmux attach
 		fi
 	fi
